@@ -5,7 +5,7 @@ let drawing = false;
 
 // FunciÃ³n para cargar el modelo
 async function loadModel() {
-    model = await tf.loadLayersModel('https://drive.google.com/file/d/17QblwDMPPlUDG_pLwM7uOddG2kGwQn78/view?usp=sharing');
+    model = await tf.loadLayersModel('model.json');
     console.log("Modelo cargado.");
 }
 
