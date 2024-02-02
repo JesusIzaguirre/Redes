@@ -5,7 +5,7 @@ let drawing = false;
 
 // FunciÃ³n para cargar el modelo
 async function loadModel() {
-    model = await tf.loadLayersModel('model.json');
+    model = await tf.loadLayersModel('https://raw.githubusercontent.com/JesusIzaguirre/Redes/main/model.json');
     console.log("Modelo cargado.");
 }
 
